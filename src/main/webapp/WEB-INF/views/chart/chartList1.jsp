@@ -13,7 +13,7 @@
     justify-content: space-around;
     list-style-type: none;
 }
- 
+  
 .vertical-container { 
     display: flex;
     flex-direction: column; /* 세로 정렬 */

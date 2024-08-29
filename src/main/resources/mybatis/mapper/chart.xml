@@ -8,7 +8,7 @@
 <select id ="chartList1" resultType="com.cinema.chart.chartDTO">
 	 select id,imagepath ,reservation,mname from movie order by reservation desc
 	</select>
-	 
+	  
 <select id ="chartList2" resultType="string" parameterType="int">
 	 select imagepath from movie where id = #{param1}
 	</select>

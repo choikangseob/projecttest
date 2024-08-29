@@ -59,8 +59,7 @@ public String chartArray() {
 	ArrayList<chartArrayDTO> ar = cadao.chartArray();
 	
 	JSONArray ja = new JSONArray();
-	for(chartArrayDTO cadto : ar) {
-		JSONObject jo =new JSONObject();
+	for(chartArrayDTO cadto : ar) { 
 		jo.put("id",cadto.getId());
 		jo.put("text",cadto.getText());
 				
