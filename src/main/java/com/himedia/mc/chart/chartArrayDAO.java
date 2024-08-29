@@ -1,4 +1,4 @@
-package com.cinema.chart;
+package com.himedia.mc.chart;
  
 import java.util.ArrayList;
 
